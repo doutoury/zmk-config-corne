@@ -54,5 +54,13 @@
                                             &kp LGUI       &trans  &soft_off    &sys_reset  &trans     &trans
                         >;
                 };
+                layer_3 {
+                        bindings = <
+&kp ESC   &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &kp DEL
+&kp CAPS  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+&trans    &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &bootloader    &bootloader  &trans  &trans
+                        >;
+                };
         };
 };
